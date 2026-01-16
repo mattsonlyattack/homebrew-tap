@@ -1,25 +1,25 @@
 class Cons < Formula
   desc "Structure-last personal knowledge management CLI with AI-powered auto-tagging"
   homepage "https://github.com/mattsonlyattack/construct-app"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/mattsonlyattack/construct-app/releases/download/v0.2.0/cons-macos-x86_64"
-      sha256 "39984856a54952c8d2049aa2092b42994576b61988a70b245ed92e9f33ee7610"
+      url "https://github.com/mattsonlyattack/construct-app/releases/download/v0.3.0/cons-macos-x86_64"
+      sha256 "6e9341d46e0955fcf5dee9ddaaf7154c9436df8716083205b54c7d488ee44ab9"
     end
 
     on_arm do
-      url "https://github.com/mattsonlyattack/construct-app/releases/download/v0.2.0/cons-macos-aarch64"
-      sha256 "02e21c62a6f2e5be77f1f8e03bdb86673a213f53947b074458fdea1ca9620e1c"
+      url "https://github.com/mattsonlyattack/construct-app/releases/download/v0.3.0/cons-macos-aarch64"
+      sha256 "5f387475e0efa2402cfc582c5ab0e042347d4c6fd9638bcd53e52b561a2dcb41"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mattsonlyattack/construct-app/releases/download/v0.2.0/cons-linux-x86_64-musl"
-      sha256 "98aed0979c26dd464b4dff3def7a92d231ef258ae9e2d455806c99677f3efb58"
+      url "https://github.com/mattsonlyattack/construct-app/releases/download/v0.3.0/cons-linux-x86_64-musl"
+      sha256 "7114b6fe8163f5310377122f6a8be19cf705deb8047a39e4639eb4c3679e2e9d"
     end
   end
 
